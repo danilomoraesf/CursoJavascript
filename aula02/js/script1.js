@@ -17,6 +17,58 @@ else if(cor == "green"){
 
 
 
+//Refatorando o código de cima!
+// DRY = dont repeat yourself!
+
+// function corFundo(){
+//     var cor = document.getElementById("txtCor").value
+//     cor = cor.toLowerCase();
+//     var vcor = "";
+
+//     if(cor == "red"){
+//     vcor = "#FF0000";
+//         console.log("Mudou para vermelho")
+//     } else if(cor == "black"){
+//     vcor = "#000000";
+//     console.log("Mudou para preto")}
+//     else if(cor == "green"){
+//     vcor = "#00FF00";
+//         console.log("Mudou para verde")
+//     } else {
+//     vcor = "#FFFFFF";
+//         alert("A cor não existe na paleta")
+//     }
+//     document.body.style.backgroundColor = vcor;
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 function textoClaro(){
