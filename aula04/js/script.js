@@ -98,3 +98,12 @@ const saida2 = `<h2>${produtos[1].nome}</h2>
 <p class='p'> ${produtos[1].preco}</p>`
 
 document.getElementById("produto2").innerHTML = saida2
+
+for(let i = 1; i <= 10; i++){
+    console.log(i)
+}
+// for(let i = 1; i <= 10; i=+2); passa mais de uma vez
+
+for(let bt = 1; bt <= 10; bt++){
+    document.getElementById("caixa").innerHTML += `<button> Botão ${bt}</button>`
+}
