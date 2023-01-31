@@ -100,4 +100,4 @@ switch(mes){
 
     console.log("hoje é %d de %s O dia da semana é %s", diames, m, dias);
     console.log(datacompleta);
-}
+}   
