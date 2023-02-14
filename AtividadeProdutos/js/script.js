@@ -1,7 +1,10 @@
+
+//ADICIONANDO UM LINK DE ARQUIVO CSS NO INDEX.HTML
 window.document.head.innerHTML = `<link rel="stylesheet" href="css/styles.css" />`;
 
-const body = window.document.body;
 
+//CRIAR A DIVCARD PARA EXIBIR AS IMAGENS DOS PRODUTOS AO CLICAR NA FOTO DE MINIATURA
+const body = window.document.body;
 function carregarProdutos(){
     const header = document.createElement('header');
     const h1 = document.createElement('h1');
