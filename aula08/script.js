@@ -32,7 +32,7 @@ window.document.body.appendChild(inputNome);
 // var ano = prompt("Digite um ano")
 // inputNome.value = anobissexto(ano);
 //console.log(Math.round(1 + Math.random() *254))
-window.document.body.innerHTML = paletaCores(10, 20)
+window.document.body.innerHTML = paletaCores(50, 30)
 };
 
 //funções anonimas
@@ -47,21 +47,4 @@ const anobissexto = function(ano){
     } else {
         return "Ano não bissexto"
     }
-}
-
-const paletaCores = function(linha, coluna){
-
-    var tabela = "<table>"
-
-    for(var lin = 0 ; lin < linha ; lin++){
-    tabela+="<tr>";
-    for(var col = 0 ; col < coluna ; col++){
-            var red = Math.round(1 + Math.random() *254);
-            var green = Math.round(1 + Math.random() *254);
-            var blue = Math.round(1 + Math.random() *254);
-            tabela += `<td style ='background-color:rgb(${red}, ${green}, ${blue})'>__</td>)`
-    }
-    tabela += "</tr>"
-}
-return tabela
 }

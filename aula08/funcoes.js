@@ -32,3 +32,24 @@ function mensagem(nome){
     return `Olá Sr. ${nome}`
 }
 
+const paletaCores = function(linha, coluna){
+
+    var tabela = "<table>"
+
+    for(var lin = 0 ; lin < linha ; lin++){
+    tabela+="<tr>";
+    for(var col = 0 ; col < coluna ; col++){
+            var red = Math.round(1 + Math.random() *254);
+            var green = Math.round(1 + Math.random() *254);
+            var blue = Math.round(1 + Math.random() *254);
+            tabela += `<td onclick = mudar('rgb(${red},${green},${blue})') style ='background-color:rgb(${red},${green},${blue})'>__</td>`
+    }
+    tabela += "</tr>"
+}
+return tabela
+}
+
+function mudar(cor){                                                                            
+   console.log(cor)
+    window.document.body.style.backgroundColor = cor;
+}
